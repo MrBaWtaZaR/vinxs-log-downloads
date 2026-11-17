@@ -1,25 +1,29 @@
 # VINXS LOG — downloads
 
-Prévia 0.1.0 para avaliar o fluxo de entregas com dados fictícios.
+Prévia 0.1.2 para avaliar o fluxo de entregas com dados fictícios.
 
-**[Abrir o app no iPhone e computador](https://vinxs-log-preview.vercel.app)**
+**[Abrir no iPhone e computador](https://vinxs-log-app-261117.web.app)**
 
-**[Baixar APK Android](https://github.com/MrBaWtaZaR/vinxs-log-downloads/releases/download/v0.1.0-preview/VINXS-LOG-0.1.0-preview.apk)**
+**[Baixar APK Android](https://github.com/MrBaWtaZaR/vinxs-log-downloads/releases/download/v0.1.2-preview/VINXS-LOG-0.1.2-preview.apk)**
 
-[Todos os pacotes e hashes](https://github.com/MrBaWtaZaR/vinxs-log-downloads/releases/tag/v0.1.0-preview).
+[Pacotes, instruções e hashes](https://github.com/MrBaWtaZaR/vinxs-log-downloads/releases/tag/v0.1.2-preview).
 
 ## Instalar
 
-- **Android:** baixar e abrir o APK. Instala separado do AF.
-- **iPhone:** abrir o app no Safari → Compartilhar → Adicionar à Tela de Início.
-- **Computador:** abrir o app em Chrome/Edge → Instalar aplicativo.
+- **Android:** baixar e abrir o APK. Instala separado do AF. Atualize o VINXS LOG por cima da versão anterior, sem desinstalar ou limpar os dados.
+- **iPhone:** abrir o endereço no Safari → Compartilhar → Adicionar à Tela de Início.
+- **Computador:** abrir em Chrome/Edge → Instalar aplicativo.
 
-Toque em **Experimentar demonstração** para carregar exemplos fictícios. O menu permite alternar entre Entregador e Gestão para experimentar o produto no mesmo aparelho.
+Toque em **Experimentar demonstração** para carregar exemplos fictícios. O menu alterna entre Gestão e Entregador para experimentar o produto no mesmo aparelho.
 
-## Estado da prévia
+## Funciona nesta prévia
 
-Setores, ordem das vagas, fotos livres, taxa, finalização, impedimentos e gestão local. Dados e anexos ficam naquele aparelho/perfil do navegador. Ainda sem login, sincronização entre aparelhos, GPS, convites ou assinaturas. A troca de visão é demonstrativa, não é uma autorização de servidor.
+Clientes completos com edição, excursão padrão, envios com data programada, atalhos quinta/sexta e outra data, calendário semanal, alerta de duplicidade e remarcação preservando os registros. Setores, ordenação das vagas, fotos livres/PDFs, taxa, observação, finalização e impedimento. Envios antigos continuam em “Sem data”.
 
-A PWA reabre offline depois de carregada e armazenada no aparelho. O ZIP é pacote para hospedagem/desenvolvimento, não é instalador nativo iOS. A instalação em iPhone físico ainda precisa ser conferida.
+**Dados e anexos continuam somente naquele aparelho/perfil do navegador.** A infraestrutura Firebase está preparada, mas a interface ainda não está ligada ao login ou à sincronização. GPS, convites operacionais e assinaturas ainda não estão ativos. A troca de visão é demonstrativa, não é autorização real. Use dados fictícios.
 
-Este repositório contém somente pacotes e instruções, sem cadastros de clientes ou credenciais. O código-fonte do projeto fica em repositório privado.
+A PWA reabre offline depois da primeira carga. O ZIP é para hospedagem/desenvolvimento, não é instalador nativo iOS. Testes de navegador não substituem teste em iPhone físico.
+
+O endereço anterior da Vercel permanece preservado. O novo endereço Firebase não importa automaticamente os registros locais do anterior; não apague os dados antigos. Os pacotes originais da release permanecem imutáveis; as instruções de hospedagem mais recentes estão nesta página e na descrição da release.
+
+Este repositório contém somente pacotes e instruções. Fontes mantidas em repositório privado, sem cadastros reais ou credenciais nos arquivos distribuídos.
